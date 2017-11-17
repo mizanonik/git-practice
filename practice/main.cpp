@@ -2,7 +2,7 @@
 
 using namespace std;
 
-string fullName(string, string);\
+string fullName(string, string);
 string comment(int);
 
 int main()
