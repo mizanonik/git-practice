@@ -2,22 +2,18 @@
 
 using namespace std;
 
-string fullName(string, string);
+int square(int);
 
 int main()
 {
-    string firstName;
-    string lastName;
+    int number;
+    cout << "Enter the number: "<< endl;
+    cin >> number;
 
-    cout << "Enter first name: "<< endl;
-    cin >> firstName;
-    cout << "Enter last name: "<< endl;
-    cin >> lastName;
-
-    cout << "Your full name is: " << fullName(firstName, lastName) << endl;
+    cout << "Square of the number: " << square(number) << endl;
     return 0;
 }
 
-string fullName(string firstName, string lastName){
-    return firstName+ " " +lastName;
+int square(int number){
+    return number*number;
 }
